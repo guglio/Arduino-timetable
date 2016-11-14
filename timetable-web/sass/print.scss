@@ -1,0 +1,27 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+@import "screen";
+
+form,footer{
+	display: none;
+}
+.cartellino_operaio{
+	width: 100%;
+	margin: 0;
+	.wrapper{
+		-webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+	}
+}
+.mese{
+	page-break-after:always;
+	page-break-inside: avoid;
+}
+header{
+	position: fixed;
+	display: block;
+	top:0;
+}

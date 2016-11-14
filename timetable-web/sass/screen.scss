@@ -1,0 +1,94 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/*
+@import "compass/reset";
+@import "compass/css3";
+h2{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+h4{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.data-row{
+	font-size: 1.2em;
+	padding: 0.5em;
+}
+.timbratura-row span{
+	padding: 0.5em;
+}
+.ritardo{
+	color: red;
+}
+.anticipo{
+	color: green;
+}
+.wrapper{
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(space-between);
+	div{
+		text-align: center;
+		@include flex(1);
+		&:first-child{
+			text-align: left;
+		}
+	}
+	&:nth-child(even){
+		background-color: #d3d3d3;
+	}
+	&.totale_mese{
+		background-color: inherit;
+		div{
+			border-top: solid #000 1px;
+			font-weight: bold;
+			margin-top: 0.5em;
+		}
+	}
+}
+.cartellino_operaio{
+	width: 80%;
+	margin: 0 auto;
+}
+.nome_mese{
+	text-transform: capitalize;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+footer{
+	font-size: 0.8em;
+	margin-top:2em;
+	margin-bottom: 1em;
+}
+.bold{
+	font-weight: bold;
+}
+.red{
+	color: red;
+}
+.underline{
+	text-decoration: underline;
+}
+.blue{
+	color: blue;
+}
+*/
+.table-container{
+	margin: 1em;
+}
+.view_attendees{
+	thead{
+		th{
+			background-color: #c1e9f1 !important;
+		}
+	}
+	tbody{
+		& tr:nth-child(odd){
+			background-color: #ffffff !important;
+		}
+	}
+}
